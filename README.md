@@ -1,3 +1,9 @@
+# memorizethesenators.com
+This powers the [memorizethesenators.com](memorizethesenators.com) website. It was built using Next.js, React, Google Cloud Run and
+Cloud Build.
+
+May the power that restrains them be as it is for this site: distributed.
+
 # Basic API routes example
 
 Next.js ships with [API routes](https://nextjs.org/docs/api-routes/introduction) which provides an easy solution to build your own `API`. This example shows how to create multiple `API` endpoints with serverless functions, which can execute independently.
