@@ -141,7 +141,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Typography>"Like sifting sand through a screen, we sift people. If you had been unable to control your impulses, like an animal, we could not let you live. You inherit too much power." <i>- Reverend Mother Mohiam, Paul of Dune</i></Typography>
+        <Typography><q>Like sifting sand through a screen, we sift people. If you had been unable to control your impulses, like an animal, we could not let you live. You inherit too much power.</q><i>- Reverend Mother Mohiam, Paul of Dune</i></Typography>
         <br />
         <br />
         <br />
