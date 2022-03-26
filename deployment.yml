@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: memorizethesenators.com
+  name: memorizethesenators.com
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: memorizethesenators.com
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: memorizethesenators.com
+    spec:
+      containers:
+      - image: docker.io/aconnor14/memorizethesenators.com
+        name: memorizethesenators.com
+        imagePullPolicy: Always
+        resources: {}
+        ports:
+          - containerPort: 3080 
+status: {}
