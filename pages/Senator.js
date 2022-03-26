@@ -9,4 +9,4 @@ class Senator {
     }
 }
 
-module.exports = Senator;
+export default Senator;
