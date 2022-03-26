@@ -119,7 +119,7 @@ const BasicList = () => {
       <nav aria-label="main mailbox folders">
         <List>
           {listOfSenators.map((senator: Senator) =>
-            <ListItem disablePadding>
+            <ListItem disablePadding key={senator.id}>
               <ListItemButton component="a" href="#simple-list">
                 <ListItemText primary={`${senator.name} - ${senator.state}`} />
               </ListItemButton>
