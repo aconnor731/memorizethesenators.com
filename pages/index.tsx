@@ -8,7 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import styles from '../styles/Home.module.css';
-import Senator from './Senator';
+import {Senator} from './Senator';
 
 const listOfSenators: Senator[] = [
   new Senator('Tammy Baldwin', 'Wisconsin'),

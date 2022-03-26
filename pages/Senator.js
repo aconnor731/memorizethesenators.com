@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-class Senator {
+export class Senator {
 
     constructor(name, state) {
         this.id = uuidv4();
@@ -8,5 +8,3 @@ class Senator {
         this.state = state;
     }
 }
-
-export default Senator;
