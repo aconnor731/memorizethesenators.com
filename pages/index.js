@@ -8,7 +8,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
-// import styles from '../styles/Home.module.css';
 import styles from '../styles/Home.module.css';
 
 import useSWR from 'swr'
@@ -551,7 +550,7 @@ export default function Index() {
         </Head>
 
         <main className={styles.main}>
-          <Typography><q>Like sifting sand through a screen, we sift people. If you had been unable to control your impulses, like an animal, we could not let you live. You inherit too much power.</q><i>- Reverend Mother Mohiam, Dune</i></Typography>
+          <Typography className={styles.quoteContainer}><q>Like sifting sand through a screen, we sift people. If you had been unable to control your impulses, like an animal, we could not let you live. You inherit too much power.</q><i>- Reverend Mother Mohiam, Dune</i></Typography>
           <br />
           <br />
           <br />
