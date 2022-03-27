@@ -616,13 +616,23 @@ const listOfSenators = [
   }
 ]
 
+const getBackgroundColorForSenator = (party) => {
+  if (party === 'D') {
+    return '#007FFF';
+  } else if (party === 'R') {
+    return '#f88379'
+  }
+
+  return 'none';
+}
+
 const SenatorsList = () => {
   return (
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <nav aria-label="main mailbox folders">
         <List>
           {listOfSenators.map((senator) =>
-            <ListItem disablePadding key={senator.id}>
+            <ListItem style={{ backgroundColor: getBackgroundColorForSenator(senator.party), marginBottom: '4px' }} disablePadding key={senator.id}>
               <ListItemButton component="a" href="#simple-list">
                 <ListItemText primary={`(${senator.party}) ${senator.name} - ${senator.state}`} />
               </ListItemButton>
